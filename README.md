@@ -164,7 +164,7 @@ when the research is ready for implementation.
 |---|---|
 | [design-with-images](skills/visual/design-with-images/SKILL.md) | Explore generated visual options, preserve the selected target, and iterate real screenshots against it until the implemented design matches. |
 | [compare-screenshots](skills/visual/compare-screenshots/SKILL.md) | Compare captures against an approved design or the intended result; use telemetry to locate differences rather than treating a historical baseline as correct. Ships a reusable diff script that also measures a lone capture for flat, empty, or misframed content. |
-| [screenshot-critique](skills/visual/screenshot-critique/SKILL.md) | Use an unprimed subagent as a second set of eyes on visual work before accepting it; mandatory before declaring a reported visual bug fixed. |
+| [screenshot-critique](skills/visual/screenshot-critique/SKILL.md) | Use an unprimed subagent as a second set of eyes on visual work before accepting it; mandatory before declaring a reported visual bug fixed. Ships a checker that strikes any number the critique cannot show a command for, and any file it named but never wrote. |
 | [preview-shots](skills/visual/preview-shots/SKILL.md) | Open a curated set of image shots in one macOS Preview window for the user to eyeball. |
 
 ### Authoring — keep the skills themselves sharp
